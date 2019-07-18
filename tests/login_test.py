@@ -28,6 +28,7 @@ class TestLogin():
             x = driver.title
             assert x == "OrangeHRM"
 
+
         except AssertionError as error:
             print("Assertion error occurred")
             print(error)
